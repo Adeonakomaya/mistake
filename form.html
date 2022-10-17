@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+            <label for="first-name">First name*:</label>
+            <input id="first-name" type="text" name="first-name"
+            placeholder="Your first name"
+            required>
+            </p>
+            <p>
+            <label for="last-name">Last name*:</label>
+            <input id="last-name" type="text" name="last-name"
+            placeholder="Your last name"
+            required>
+        </p>
+        <p>
+            <label for="email">Email*:</label>
+            <input id="email" type="text" name="email"
+            placeholder="Your email address"
+            required>
+        </p>
+        <p>
+            <label for="password">Password input*:</label>
+            <input id="password" type="text" name="password" 
+            required>
+        </p>
+        <p>
+            <label for="password">Repeat password*:</label>
+            <input id="repeat-password" type="text" name="repeat-password" 
+            required>
+            </p>
+            <p>
+                <label for="the-date">Date*:</label>
+                <input type="date" name="the-date" id="the-date" required>
+            </p>
+            <p>
+                Gender*:
+                <input type="radio" name="gender" value="1" id="male" required>
+                <label for="male">Male</label>
+               
+                <input type="radio" name="gender" value="1" id="female" required>
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" value="1" id="other" required>
+                <label for="other">Other</label>
+            
+        </p>
+        
+        
+        <p>
+            <label for="ethnicity">Choose what best describes you*:</label>
+            <select required id="ethnicity" name="ethnicity">     
+            <option value="">--Select--</option>
+            <option value="White">White</option>
+            <option value="Black or African American">Black or African American</option>
+            <option value="American Indian">American Indian</option>
+            <option value="Native Hawaiian">Native Hawaiian</option>
+            <option value="Asian">Asian</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+        </select>   
+        </p>
+        <p>
+            <label for="bio">Briefly tell me about yourself</label>
+            <br>
+            <textarea id="bio" name="biography"
+            cols="10"
+            rows="2">
+        </textarea>
+    </fieldset>
+        <p> Required* <input type="Submit" value="Submit"></p>
+    </form>
+    <footer>
+        <ul>
+            <li><a href="project1.html"> Go back home! </a></li>
+            <li><a href="about.html">About </a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
